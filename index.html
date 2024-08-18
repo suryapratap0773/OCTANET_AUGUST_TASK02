@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO LIST</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="welcome-message" class="welcome-animation">
+    WELCOME TO
+  </div>
+
+  <h1>Todo &#128209; List</h1>
+  <div class="container">
+    <div class="input-container">
+      <input class="todo-input" placeholder="Add a new task...">
+      <button class="add-button">
+        <i class="fa fa-plus-circle"></i>
+      </button>
+    </div>
+
+    <div class="filters">
+      <div class="filter" data-filter="completed">Complete</div>
+      <div class="filter" data-filter="pending">Incomplete</div>
+      <div class="delete-all">Delete All</div>
+    </div>
+
+    <div class="todos-container">
+      <ul class="todos"></ul>
+      <img class="empty-image" src="./todo.png">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Surya Pratap. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/suryapratap0773/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/suryapratap0773" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.instagram.com/suryapratap0773/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://x.com/suryapratap0773" target="_blank"><i class="fa fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
